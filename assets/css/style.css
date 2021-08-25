@@ -10,9 +10,11 @@ html {
     scroll-behavior: smooth;
 }
 
-/* #profile {
-  height: 250px;
-  width: 250px;
-  margin: 10px;
-} */
+#work {
+  align-content: space-around;
+}
 
+#projCard {
+  border-radius: 15px;
+  margin: 5px;
+}
