@@ -18,19 +18,16 @@
 
   <body>
     <nav>
-      <!-- <div class="nav-wrapper"> -->
-      <!-- <div class="brand-logo"></div> -->
       <ul id="nav-mobile" class="brand-logo center hide-on-med-and-down">
         <li><a href="#About">About Me</a></li>
         <li><a href="#Work">Work</a></li>
-        <li><a href="#Competencies">Competencies</a></li>
         <li><a href="#Contact">Contact Info</a></li>
       </ul>
-      <!-- </div> -->
     </nav>
     <main>
       <section id="about" class="container">
         <a name="About"></a>
+        <h2 class="center-align">About Me</h2>
         <div class="row">
           <div class="col m6 s12">
             <img
@@ -81,6 +78,7 @@
       </section>
       <section id="work">
         <a name="Work"></a>
+        <h2 class="center-align">Work</h2>
         <div class="row valign-wrapper" id="workRow">
           <div class="card col hoverable" id="projCard">
             <div class="card-image waves-effect waves-block waves-light">
@@ -206,8 +204,6 @@
               </ul>
             </div>
           </div>
-        <!-- </div>
-        <div class="row" id="workRow"> -->
           <div class="card col hoverable" id="projCard">
             <div class="card-image waves-effect waves-block waves-light">
               <img
@@ -251,17 +247,30 @@
           </div>
         </div>
       </section>
-      <section id="competencies">
-        <a name="Competencies"></a>
-        <i class="fab fa-html5"></i>
-        <i class="fab fa-css3"></i>
-        <i class="fab fa-js"></i>
-        <i class="fab fa-node"></i>
-        <i class="fab fa-bootstrap"></i>
-        <i class="fab fa-react"></i>
-      </section>
-      <section id="contact" class="row">
+      <section id="contact">
         <a name="Contact"></a>
+        <h2 class="row center-align">Contact Info</h2>
+        <div class="row">
+          <!-- <a class="btn modal-trigger" href="#modal1">
+            <i class="fas fa-phone fa-3x"></i>
+          </a> -->
+          <a class="modal-trigger" href="#phone"><i class="fas fa-phone fa-3x"></i></a>
+          <div id="phone" class="modal">
+            <div class="modal-content">
+              <h4>Phone Number</h4>
+              <p>(480)710-1663</p>
+            </div>
+            <div class="modal-footer">
+              <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
+            </div>
+          </div>
+          <a href="mailto:manning.joseph.4342@gmail.com">
+            <i class="fas fa-envelope fa-3x"></i>
+          </a>          
+          <a href="https://github.com/JMan4342" target="_blank">
+            <i class="fab fa-github fa-3x"></i>
+          </a>
+        </div>
       </section>
     </main>
     <script src="http://code.jquery.com/jquery-latest.min.js"></script>
