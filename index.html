@@ -18,8 +18,10 @@
 
   <body>
     <div class="navbar-fixed">
-      <nav id="navBar">
-        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="fas fa-bars"></i></a>
+      <nav id="navBar" class="valign-wrapper">
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger"
+          ><i class="fas fa-bars valign-wrapper"></i
+        ></a>
         <ul id="nav-mobile" class="brand-logo center hide-on-med-and-down">
           <li><a href="#About">About Me</a></li>
           <li><a href="#Work">Work</a></li>
@@ -33,87 +35,95 @@
       <li><a href="#Contact">Contact Info</a></li>
     </ul>
     <main>
-      <section id="about" class="container">
+      <section id="about">
         <a name="About"></a>
-        <h2 class="center-align">About Me</h2>
-        <div class="row">
-          <div class="col m6 s12">
-            <img
-              src="./assets/images/profile_pic.jpg"
-              id="profile"
-              class="circle responsive-img"
-            />
-          </div>
-          <div class="col m6 s12">
-            <div class="card blue-grey darken-1" id="profCard">
-              <div class="card-content">
-                <div class="row">
-                  <span
-                    class="
-                      card-title
-                      activator
-                      left
-                      col
-                      s11
-                      black-text
-                      text-darken-4
-                    "
-                    id="aboutCardTitle"
-                  >
-                    Professional
-                    <i class="fas fa-angle-up right col s1"></i>
-                  </span>
-                </div>
-              </div>
-              <div class="card-reveal">
-                <div class="row">
-                  <span class="card-title left col s11 grey-text text-darken-4" id="aboutRevealTitle"
-                    >Professional
-                    <i class="fas fa-angle-down right col s1"></i>
-                  </span>
-                  <p>
-                    I am a full stack web developer with an emphasis on
-                    front-end developing where I use my skills to ensure that
-                    the end user one-of-a-kind positive online experience.
-                    Before taking on the role of student I was a team lead for
-                    an internationally known toy company helping to oversee the
-                    merchandising team and ensuring that our product was
-                    properly represented on the retail shelf.
-                  </p>
-                </div>
-              </div>
+        <div id="secTitle">
+          <h2 class="center-align">About Me</h2>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col m6 s12">
+              <img
+                src="./assets/images/profile_pic.jpg"
+                id="profile"
+                class="circle responsive-img"
+              />
             </div>
-            <div class="card blue-grey darken-1" id="persCard">
-              <div class="card-content">
-                <div class="row">
-                  <span
-                    class="
-                      card-title
-                      activator
-                      left
-                      col
-                      s11
-                      black-text
-                      text-darken-4
-                    "
-                    id="aboutCardTitle"
-                  >
-                    Personal
-                    <i class="fas fa-angle-up right col s1"></i>
-                  </span>
+            <div class="col m6 s12">
+              <div class="card blue-grey darken-1" id="profCard">
+                <div class="card-content">
+                  <div class="row">
+                    <span
+                      class="
+                        card-title
+                        activator
+                        left
+                        col
+                        s11
+                        white-text
+                        text-darken-4
+                      "
+                      id="aboutCardTitle"
+                    >
+                      Professional
+                      <i class="fas fa-angle-up fa-lg right col s1"></i>
+                    </span>
+                  </div>
+                </div>
+                <div class="card-reveal" id="aboutReveal">
+                  <div class="row">
+                    <span
+                      class="card-title left col s11 grey-text text-darken-4"
+                      id="aboutRevealTitle"
+                      >Professional
+                      <i class="fas fa-angle-down right col s1"></i>
+                    </span>
+                    <p>
+                      I am a full stack web developer with an emphasis on
+                      front-end developing where I use my skills to ensure that
+                      the end user one-of-a-kind positive online experience.
+                      Before taking on the role of student I was a team lead for
+                      an internationally known toy company helping to oversee
+                      the merchandising team and ensuring that our product was
+                      properly represented on the retail shelf.
+                    </p>
+                  </div>
                 </div>
               </div>
-              <div class="card-reveal">
-                <div class="row">
-                  <span class="card-title left col s11 grey-text text-darken-4" id="aboutRevealTitle"
-                    >Personal
-                    <i class="fas fa-angle-down right col s1"></i>
-                  </span>
-                  <p>
-                    In my freetime you can find me getting out in nature and
-                    hiking the local trails in the Arizona desert, or heading
-                    north to cooler climates.
-                  </p>
+              <div class="card blue-grey darken-1" id="persCard">
+                <div class="card-content">
+                  <div class="row">
+                    <span
+                      class="
+                        card-title
+                        activator
+                        left
+                        col
+                        s11
+                        white-text
+                        text-darken-4
+                      "
+                      id="aboutCardTitle"
+                    >
+                      Personal
+                      <i class="fas fa-angle-up fa-lg right col s1"></i>
+                    </span>
+                  </div>
+                </div>
+                <div class="card-reveal" id="aboutReveal">
+                  <div class="row">
+                    <span
+                      class="card-title left col s11 grey-text text-darken-4"
+                      id="aboutRevealTitle"
+                      >Personal
+                      <i class="fas fa-angle-down right col s1"></i>
+                    </span>
+                    <p>
+                      In my freetime you can find me getting out in nature and
+                      hiking the local trails in the Arizona desert, or heading
+                      north to cooler climates.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -122,7 +132,9 @@
       </section>
       <section id="work">
         <a name="Work"></a>
-        <h2 class="center-align">Work</h2>
+        <div id="secTitle">
+          <h2 class="center-align">Work</h2>
+        </div>
         <div class="row valign-wrapper" id="workRow">
           <div class="card col hoverable" id="projCard">
             <div class="card-image waves-effect waves-block waves-light">
@@ -291,36 +303,40 @@
       </section>
       <section id="contact">
         <a name="Contact"></a>
-        <h2 class="row center-align">Contact Info</h2>
-        <div class="row">
-          <a class="modal-trigger col" href="#phone"
-            ><i class="fas fa-phone fa-3x"></i
-          ></a>
-          <div id="phone" class="modal">
-            <div class="modal-content">
-              <div class="container valign">
-                <h4 class="center">Phone Number</h4>
-                <p class="center">(480)710-1663</p>
+        <div id="secTitle">
+          <h2 class="center-align">Contact Info</h2>
+          <div class="row" id="contactIcons">
+            <a class="modal-trigger col" href="#phone"
+              ><i class="fas fa-phone fa-3x"></i
+            ></a>
+            <div id="phone" class="modal">
+              <div class="modal-content">
+                <div class="container valign">
+                  <h4 class="center">Phone Number</h4>
+                  <p class="center">(480)710-1663</p>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <a
+                  href="#!"
+                  class="modal-close waves-effect waves-green btn-flat"
+                  >Close</a
+                >
               </div>
             </div>
-            <div class="modal-footer">
-              <a href="#!" class="modal-close waves-effect waves-green btn-flat"
-                >Close</a
-              >
-            </div>
+            <a href="mailto:manning.joseph.4342@gmail.com">
+              <i class="fas fa-envelope fa-3x col"></i>
+            </a>
+            <a href="https://github.com/JMan4342" target="_blank">
+              <i class="fab fa-github-square fa-3x col"></i>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/joseph-manning-570636211/"
+              target="_blank"
+            >
+              <i class="fab fa-linkedin fa-3x col"></i>
+            </a>
           </div>
-          <a href="mailto:manning.joseph.4342@gmail.com">
-            <i class="fas fa-envelope fa-3x col"></i>
-          </a>
-          <a href="https://github.com/JMan4342" target="_blank">
-            <i class="fab fa-github-square fa-3x col"></i>
-          </a>
-          <a
-            href="https://www.linkedin.com/in/joseph-manning-570636211/"
-            target="_blank"
-          >
-            <i class="fab fa-linkedin fa-3x col"></i>
-          </a>
         </div>
       </section>
     </main>

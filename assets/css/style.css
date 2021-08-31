@@ -10,14 +10,46 @@ html {
   scroll-behavior: smooth;
 }
 
-/* #navBar {
-  background-color: grey;
-  opacity: 75%;
-} */
+.parallax-container {
+  height: 600px;
+  width: auto;
+}
 
-/* #navBar i {
-  color: black;
-} */
+#navBar {
+  height: 0px;
+}
+
+body {
+  background-image: url(../images/robert-murray-TGcqIirp5Y0-unsplash.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#secTitle {
+  /* height: 55px; */
+  position: relative;
+}
+
+#secTitle::after {
+  content: '';
+  width: 100%;
+  height: 100%;
+  background-color: rgb(223, 223, 224);
+  opacity: 82%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  /* border: solid; */
+  border-radius: 65px;
+}
+
+h2 {
+  z-index: 1;
+  /* border: solid;
+  border-radius: 15px; */
+}
 
 .row {
   display: flex;
@@ -68,7 +100,6 @@ html {
     color: black;
     opacity: 100%;
   }
-  
 }
 
 @media only screen and (min-width: 993px) {
@@ -82,8 +113,11 @@ html {
   #navBar {
     background-color: grey;
     opacity: 75%;
+    height: 50px;
   }
-  
+  #navBar a {
+    font-size: large;
+  }
 }
 
 #work img {
@@ -114,13 +148,26 @@ i {
   color: grey;
 }
 
+#persCard i,
 #profCard i {
+  color: white;
+}
+
+#aboutReveal i {
   color: black;
 }
 
-#persCard i {
+.card-reveal i {
   color: black;
 }
+
+.card-content i {
+  color: black;
+}
+
+/* #persCard i {
+  color: black;
+} */
 
 #aboutCardTitle {
   position: absolute;
@@ -147,7 +194,7 @@ i {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  opacity: 82%;
+  filter: grayscale(60%);
 }
 
 #persCard {
@@ -158,5 +205,13 @@ i {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  opacity: 82%;
+  filter: grayscale(60%);
+}
+
+#contact i {
+  color:rgb(81, 81, 82)
+}
+
+#contactIcons {
+  padding-bottom: 5px;
 }

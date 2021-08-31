@@ -1,8 +1,11 @@
 $(document).ready(function () {
-    $('.modal').modal();
-}
-)
+  $(".modal").modal();
+});
 
-$(document).ready(function(){
-    $('.sidenav').sidenav();
-  })
+$(document).ready(function () {
+  $(".sidenav").sidenav();
+});
+
+$(document).ready(function () {
+  $(".parallax").parallax();
+});
