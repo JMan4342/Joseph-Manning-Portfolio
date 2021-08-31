@@ -18,14 +18,20 @@
 
   <body>
     <div class="navbar-fixed">
-      <nav>
-        <ul id="nav-mobile" class="brand-logo center hide-on-small-and-down">
+      <nav id="navBar">
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="fas fa-bars"></i></a>
+        <ul id="nav-mobile" class="brand-logo center hide-on-med-and-down">
           <li><a href="#About">About Me</a></li>
           <li><a href="#Work">Work</a></li>
           <li><a href="#Contact">Contact Info</a></li>
         </ul>
       </nav>
     </div>
+    <ul class="sidenav" id="mobile-demo">
+      <li><a href="#About">About Me</a></li>
+      <li><a href="#Work">Work</a></li>
+      <li><a href="#Contact">Contact Info</a></li>
+    </ul>
     <main>
       <section id="about" class="container">
         <a name="About"></a>
@@ -49,7 +55,7 @@
                       left
                       col
                       s11
-                      grey-text
+                      black-text
                       text-darken-4
                     "
                     id="aboutCardTitle"
@@ -61,7 +67,7 @@
               </div>
               <div class="card-reveal">
                 <div class="row">
-                  <span class="card-title left col s11 grey-text text-darken-4"
+                  <span class="card-title left col s11 grey-text text-darken-4" id="aboutRevealTitle"
                     >Professional
                     <i class="fas fa-angle-down right col s1"></i>
                   </span>
@@ -87,7 +93,7 @@
                       left
                       col
                       s11
-                      grey-text
+                      black-text
                       text-darken-4
                     "
                     id="aboutCardTitle"
@@ -99,7 +105,7 @@
               </div>
               <div class="card-reveal">
                 <div class="row">
-                  <span class="card-title left col s11 grey-text text-darken-4"
+                  <span class="card-title left col s11 grey-text text-darken-4" id="aboutRevealTitle"
                     >Personal
                     <i class="fas fa-angle-down right col s1"></i>
                   </span>

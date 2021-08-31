@@ -10,6 +10,15 @@ html {
   scroll-behavior: smooth;
 }
 
+/* #navBar {
+  background-color: grey;
+  opacity: 75%;
+} */
+
+/* #navBar i {
+  color: black;
+} */
+
 .row {
   display: flex;
   flex-wrap: wrap;
@@ -50,6 +59,18 @@ html {
   }
 }
 
+@media only screen and (max-width: 992px) {
+  #navBar {
+    background-color: transparent;
+    box-shadow: none;
+  }
+  #navBar i {
+    color: black;
+    opacity: 100%;
+  }
+  
+}
+
 @media only screen and (min-width: 993px) {
   #projCard {
     width: 31%;
@@ -58,6 +79,11 @@ html {
   #workRow {
     flex-direction: row;
   }
+  #navBar {
+    background-color: grey;
+    opacity: 75%;
+  }
+  
 }
 
 #work img {
@@ -88,13 +114,32 @@ i {
   color: grey;
 }
 
+#profCard i {
+  color: black;
+}
+
+#persCard i {
+  color: black;
+}
+
 #aboutCardTitle {
   position: absolute;
   bottom: 0;
   left: 0;
 }
 
-#profCard{
+#aboutRevealTitle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: 10px;
+}
+
+.card-reveal p {
+  margin-top: 25px;
+}
+
+#profCard {
   background-image: url(../images/officePhoto1.jpg);
   background-color: #cccccc;
   height: 300px;
@@ -102,6 +147,7 @@ i {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  opacity: 82%;
 }
 
 #persCard {
@@ -112,5 +158,5 @@ i {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  opacity: 82%;
 }
-
