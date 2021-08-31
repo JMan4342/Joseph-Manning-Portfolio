@@ -50,6 +50,7 @@ h2 {
   margin: 10px;
   padding-left: 0px;
   padding-right: 0px;
+  background-color: rgb(228, 229, 231);
 }
 
 #deployBtn {
@@ -146,12 +147,12 @@ i {
   );
 }
 
-#workCardContent {
+/* #workCardContent {
   background-color: rgb(228, 229, 231);
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
   padding-bottom: 1px;
-}
+} */
 
 @media (max-width: 600px) {
   #projCard {
