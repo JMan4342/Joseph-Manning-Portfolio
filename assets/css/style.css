@@ -10,15 +10,6 @@ html {
   scroll-behavior: smooth;
 }
 
-.parallax-container {
-  height: 600px;
-  width: auto;
-}
-
-#navBar {
-  height: 0px;
-}
-
 body {
   background-image: url(../images/robert-murray-TGcqIirp5Y0-unsplash.jpg);
   background-position: center;
@@ -27,12 +18,11 @@ body {
 }
 
 #secTitle {
-  /* height: 55px; */
   position: relative;
 }
 
 #secTitle::after {
-  content: '';
+  content: "";
   width: 100%;
   height: 100%;
   background-color: rgb(223, 223, 224);
@@ -41,14 +31,11 @@ body {
   top: 0;
   left: 0;
   z-index: -1;
-  /* border: solid; */
   border-radius: 65px;
 }
 
 h2 {
   z-index: 1;
-  /* border: solid;
-  border-radius: 15px; */
 }
 
 .row {
@@ -68,56 +55,6 @@ h2 {
 #deployBtn {
   border: solid;
   border-radius: 5px;
-  /* padding: 10px; */
-}
-
-@media (max-width: 600px) {
-  #projCard {
-    width: 98%;
-    height: auto;
-  }
-  #workRow {
-    flex-direction: column;
-  }
-}
-
-@media (min-width: 601px) {
-  #projCard {
-    width: 45%;
-    height: auto;
-  }
-  #workRow {
-    flex-direction: row;
-  }
-}
-
-@media only screen and (max-width: 992px) {
-  #navBar {
-    background-color: transparent;
-    box-shadow: none;
-  }
-  #navBar i {
-    color: black;
-    opacity: 100%;
-  }
-}
-
-@media only screen and (min-width: 993px) {
-  #projCard {
-    width: 31%;
-    height: auto;
-  }
-  #workRow {
-    flex-direction: row;
-  }
-  #navBar {
-    background-color: grey;
-    opacity: 75%;
-    height: 50px;
-  }
-  #navBar a {
-    font-size: large;
-  }
 }
 
 #work img {
@@ -133,19 +70,8 @@ h2 {
   margin-right: 5px;
 }
 
-/* #work .btn {
-  height: 31px;
-  border-radius: 3px;
-  padding-left: 10px;
-  padding-right: 10px;
-} */
-
-/* #work i{
-  box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 3px 1px -2px rgb(0 0 0 / 12%), 0 1px 5px 0 rgb(0 0 0 / 20%);
-} */
-
 i {
-  color: grey;
+  color: rgb(81, 81, 82);
 }
 
 #persCard i,
@@ -164,10 +90,6 @@ i {
 .card-content i {
   color: black;
 }
-
-/* #persCard i {
-  color: black;
-} */
 
 #aboutCardTitle {
   position: absolute;
@@ -209,9 +131,73 @@ i {
 }
 
 #contact i {
-  color:rgb(81, 81, 82)
+  color: rgb(81, 81, 82);
 }
 
 #contactIcons {
   padding-bottom: 5px;
+}
+
+.card-reveal {
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(196, 199, 202),
+    rgb(109, 153, 170)
+  );
+}
+
+#workCardContent {
+  background-color: rgb(228, 229, 231);
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  padding-bottom: 1px;
+}
+
+@media (max-width: 600px) {
+  #projCard {
+    width: 98%;
+    height: auto;
+  }
+  #workRow {
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 601px) {
+  #projCard {
+    width: 45%;
+    height: auto;
+  }
+  #workRow {
+    flex-direction: row;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  #navBar {
+    background-color: transparent;
+    box-shadow: none;
+  }
+  #navBar i {
+    color: whitesmoke;
+    opacity: 100%;
+  }
+}
+
+@media only screen and (min-width: 993px) {
+  #projCard {
+    width: 31%;
+    height: auto;
+  }
+  #workRow {
+    flex-direction: row;
+  }
+  #navBar {
+    background-color: grey;
+    opacity: 75%;
+    height: 50px;
+  }
+  #navBar a {
+    font-size: larger;
+  }
 }
