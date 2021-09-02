@@ -156,6 +156,11 @@ i {
   );
 }
 
+#bootIcon {
+  border-radius: 35px;
+  padding: 25px;
+}
+
 /* #workCardContent {
   background-color: rgb(228, 229, 231);
   border-bottom-left-radius: 15px;
