@@ -9,3 +9,6 @@ $(document).ready(function () {
 $(document).ready(function () {
   $(".parallax").parallax();
 });
+
+var elem = document.querySelector('.sidenav');
+  var instance = new M.Sidenav(elem);
