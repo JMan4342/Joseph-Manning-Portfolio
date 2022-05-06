@@ -11,4 +11,4 @@ $(document).ready(function () {
 });
 
 var elem = document.querySelector(".sidenav");
-var instance = M.Sidenav.getInstance(elem);
+var instance = new M.Sidenav(elem);
