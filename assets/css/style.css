@@ -11,7 +11,8 @@ html {
 }
 
 body {
-  background-image: url(../images/robert-murray-TGcqIirp5Y0-unsplash\(large\).jpg);
+  /* background-image: url(../images/robert-murray-TGcqIirp5Y0-unsplash\(large\).jpg); */
+  background-image: url(../images/robert-murray-TGcqIirp5Y0-unsplash.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -189,9 +190,10 @@ i {
   }
 }
 
-@media (max-width: 1600px) {
+@media (min-width: 1600px) {
   body {
-    background-image: url(../images/robert-murray-TGcqIirp5Y0-unsplash.jpg);
+    /* background-image: url(../images/robert-murray-TGcqIirp5Y0-unsplash.jpg); */
+    background-image: url(../images/robert-murray-TGcqIirp5Y0-unsplash\(large\).jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
