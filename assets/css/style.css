@@ -189,7 +189,7 @@ i {
   }
 }
 
-@media only screen and (max-width: 1600px) {
+@media (max-width: 1600px) {
   body {
     background-image: url(../images/robert-murray-TGcqIirp5Y0-unsplash.jpg);
     background-position: center;
