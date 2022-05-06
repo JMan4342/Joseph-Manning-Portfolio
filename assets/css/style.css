@@ -161,6 +161,7 @@ i {
   padding: 25px;
 }
 
+
 /* #workCardContent {
   background-color: rgb(228, 229, 231);
   border-bottom-left-radius: 15px;
@@ -197,6 +198,12 @@ i {
     color: whitesmoke;
     opacity: 100%;
   }
+  #cardTitle {
+    font-size: 21px;
+  }
+  #cardReveal span {
+    font-size: 19px;
+  }
 }
 
 @media only screen and (min-width: 993px) {
@@ -214,5 +221,20 @@ i {
   }
   #navBar a {
     font-size: larger;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  #cardTitle {
+    font-size: 19px;
+  }
+  
+  #cardReveal span {
+    font-size: 17px;
+  }
+
+  #cardReveal p,
+  #cardReveal li {
+    font-size: 16px;
   }
 }
