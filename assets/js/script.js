@@ -10,5 +10,5 @@ $(document).ready(function () {
   $(".parallax").parallax();
 });
 
-var elem = document.querySelector('.sidenav');
-  var instance = new M.Sidenav(elem);
+var elem = document.querySelector(".sidenav");
+var instance = M.Sidenav.getInstance(elem);
