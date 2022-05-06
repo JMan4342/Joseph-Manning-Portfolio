@@ -11,7 +11,7 @@ html {
 }
 
 body {
-  background-image: url(../images/robert-murray-TGcqIirp5Y0-unsplash.jpg);
+  background-image: url(../images/robert-murray-TGcqIirp5Y0-unsplash\(large\).jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -161,13 +161,13 @@ i {
   padding: 25px;
 }
 
-
 /* #workCardContent {
   background-color: rgb(228, 229, 231);
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
   padding-bottom: 1px;
 } */
+
 
 @media (max-width: 600px) {
   #projCard {
@@ -186,6 +186,15 @@ i {
   }
   #workRow {
     flex-direction: row;
+  }
+}
+
+@media only screen and (max-width: 1600px) {
+  body {
+    background-image: url(../images/robert-murray-TGcqIirp5Y0-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
   }
 }
 
@@ -228,7 +237,7 @@ i {
   #cardTitle {
     font-size: 19px;
   }
-  
+
   #cardReveal span {
     font-size: 17px;
   }
