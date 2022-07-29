@@ -235,6 +235,13 @@ i {
 }
 
 @media only screen and (min-width: 320px) {
+  body {
+    background-image: url(../images/robert-murray-TGcqIirp5Y0-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
   #cardTitle {
     font-size: 19px;
   }
