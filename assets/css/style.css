@@ -169,15 +169,14 @@ i {
   padding-bottom: 1px;
 } */
 
-
 @media (max-width: 600px) {
   #projCard {
     width: 98%;
     height: auto;
   }
-  #workRow {
+  /* #workRow {
     flex-direction: column;
-  }
+  } */
 }
 
 @media (min-width: 601px) {
@@ -185,12 +184,12 @@ i {
     width: 45%;
     height: auto;
   }
-  #workRow {
+  /* #workRow {
     flex-direction: row;
-  }
+  } */
 }
 
-@media (min-width: 1600px) {
+@media only screen and (min-width: 1600px) {
   body {
     /* background-image: url(../images/robert-murray-TGcqIirp5Y0-unsplash.jpg); */
     background-image: url(../images/robert-murray-TGcqIirp5Y0-unsplash\(large\).jpg);
@@ -222,9 +221,9 @@ i {
     width: 31%;
     height: auto;
   }
-  #workRow {
+  /* #workRow {
     flex-direction: row;
-  }
+  } */
   #navBar {
     background-color: grey;
     opacity: 75%;
@@ -235,7 +234,7 @@ i {
   }
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (min-width: 320px) {
   #cardTitle {
     font-size: 19px;
   }
