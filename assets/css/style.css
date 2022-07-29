@@ -13,7 +13,7 @@ html {
 body {
   /* background-image: url(../images/robert-murray-TGcqIirp5Y0-unsplash\(large\).jpg); */
   background-image: url(../images/robert-murray-TGcqIirp5Y0-unsplash.jpg);
-  background-position: center;
+  background-position: top;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
@@ -111,7 +111,6 @@ i {
 }
 
 #projCard .card-title {
-  /* font-size: 30px; */
   font-weight: 500;
 }
 
@@ -162,21 +161,11 @@ i {
   padding: 25px;
 }
 
-/* #workCardContent {
-  background-color: rgb(228, 229, 231);
-  border-bottom-left-radius: 15px;
-  border-bottom-right-radius: 15px;
-  padding-bottom: 1px;
-} */
-
 @media (max-width: 600px) {
   #projCard {
     width: 98%;
     height: auto;
   }
-  /* #workRow {
-    flex-direction: column;
-  } */
 }
 
 @media (min-width: 601px) {
@@ -184,14 +173,10 @@ i {
     width: 45%;
     height: auto;
   }
-  /* #workRow {
-    flex-direction: row;
-  } */
 }
 
 @media only screen and (min-width: 1600px) {
   body {
-    /* background-image: url(../images/robert-murray-TGcqIirp5Y0-unsplash.jpg); */
     background-image: url(../images/robert-murray-TGcqIirp5Y0-unsplash\(large\).jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -221,9 +206,6 @@ i {
     width: 31%;
     height: auto;
   }
-  /* #workRow {
-    flex-direction: row;
-  } */
   #navBar {
     background-color: grey;
     opacity: 75%;
@@ -235,14 +217,6 @@ i {
 }
 
 @media only screen and (min-width: 320px) {
-  body {
-    background-image: url(../images/robert-murray-TGcqIirp5Y0-unsplash.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-  }
-
   #cardTitle {
     font-size: 19px;
   }
